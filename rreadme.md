@@ -1,7 +1,3 @@
-Below is a **rewritten README** that **includes all the key formulas** used in this project. They are provided in LaTeX‐style notation for clarity. Please note that **GitHub’s default Markdown renderer** does not support LaTeX math out of the box—if you wish to see rendered formulas on GitHub, you can use a **browser extension** (e.g., MathJax Plugin) or **view locally** in a Markdown editor that supports LaTeX.
-
----
-
 # ACPC Grading System Server Simulation
 
 This project simulates an **ACPC Grading System Server** where multiple computers process incoming tasks (contest problem submissions). Tasks arrive at random intervals, each requiring a random (exponential) amount of service time. If no computer is available, the tasks wait in a queue until a computer becomes free.
