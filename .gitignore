@@ -1,0 +1,4 @@
+abd.py
+*.pdf
+__pycache__/
+*.pyc
