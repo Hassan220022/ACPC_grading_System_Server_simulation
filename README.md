@@ -71,10 +71,10 @@ No additional third-party libraries are required.
 Run the simulation script directly via Python:
 
 ```bash
-python3 grading_system_simulation.py
+python3 simulation.py
 ```
 
-Where `grading_system_simulation.py` is the name of the Python file containing the simulation code.
+Where `simulation.py` is the name of the Python file containing the simulation code.
 
 ### Configuring Simulation Parameters
 
@@ -167,11 +167,11 @@ The simulator uses several **key formulas** based on **queueing theory** and **e
 ```
 acpc-grading-simulation/
 ├── README.md                      # This README file
-├── grading_system_simulation.py   # Main Python script
+├── simulation.py   # Main Python script
 └── ...
 ```
 
-- **`grading_system_simulation.py`**  
+- **`simulation.py`**  
   This file contains the entire simulation logic. Key sections include:
   - **Initialization** of variables (e.g., `computers`, `queue`, accumulators).  
   - **Main Loop** where arrivals are generated and tasks are processed.  
@@ -262,7 +262,7 @@ Under these **lightly loaded** conditions, you might see very few tasks waiting 
 ## Troubleshooting
 
 - **No Output or Errors**  
-  Make sure you have Python 3.7+ installed and run `python3 grading_system_simulation.py` from the correct directory.
+  Make sure you have Python 3.7+ installed and run `python3 simulation.py` from the correct directory.
 
 - **Simulation Takes Too Long or Appears to Hang**  
   If you set a very high arrival rate, the queue can grow large, and the code may need to handle many tasks before reaching the simulation end time.
