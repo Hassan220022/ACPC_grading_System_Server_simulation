@@ -120,45 +120,33 @@ You can edit these parameters to run experiments with different settings.
 The simulator uses several **key formulas** based on **queueing theory** and **exponential distributions**:
 
 1. **Exponential Distribution**  
-   - To generate an exponentially distributed random variable \( X \) with mean \(\alpha\):
-     \[
-       X = -\alpha \,\ln(U), \quad \text{where } U \sim \text{Uniform}(0,1).
-     \]
+   - To generate an exponentially distributed random variable X with mean α:
+     - X = -α * ln(U), where U is a random variable uniformly distributed between 0 and 1.
    - In this project:
-     - \( \alpha = \text{MEAN\_INTERARRIVAL} \) for interarrival times.  
-     - \( \alpha = \text{MEAN\_SERVICE\_TIME} \) for service times.
+     - α = MEAN_INTERARRIVAL for interarrival times.  
+     - α = MEAN_SERVICE_TIME for service times.
 
 2. **Arrival Rate and Service Rate**  
-   - **Arrival rate**: \(\lambda = \frac{1}{\text{MEAN\_INTERARRIVAL}}\).  
-   - **Service rate** (per computer): \(\mu = \frac{1}{\text{MEAN\_SERVICE\_TIME}}\).  
+   - **Arrival rate**: λ = 1 / MEAN_INTERARRIVAL.  
+   - **Service rate** (per computer): μ = 1 / MEAN_SERVICE_TIME.  
 
-3. **Delay Time \((D)\)**  
+3. **Delay Time (D)**  
    - For each task, **delay** = time spent waiting in the queue before service begins.  
-   - In code, if a task arrives at time \( a \) and begins service at time \( s \), then  
-     \[
-       D = s - a.
-     \]
+   - In code, if a task arrives at time a and begins service at time s, then  
+     - D = s - a.
 
-4. **Waiting Time \((W)\)**  
+4. **Waiting Time (W)**  
    - **Waiting time** = total time in system = **delay** + **service time**.  
-   - For a task that arrives at time \( a \), begins service at \( s \), and completes at \( c \),  
-     \[
-       W = (s - a) \;+\; (c - s) \;=\; c - a.
-     \]
+   - For a task that arrives at time a, begins service at s, and completes at c,  
+     - W = (s - a) + (c - s) = c - a.
 
 5. **Averaging Metrics**  
-   - After simulating all tasks (up to the 5‐hour window), we compute:  
-     \[
-       \text{Average Delay} = \frac{\sum_i D_i}{\text{Number of tasks}},
-     \]
-     \[
-       \text{Average Waiting Time} = \frac{\sum_i W_i}{\text{Number of tasks}}.
-     \]
+   - After simulating all tasks (up to the 5-hour window), we compute:  
+     - Average Delay = (sum of all D_i) / (Number of tasks),
+     - Average Waiting Time = (sum of all W_i) / (Number of tasks).
    - For **time-based** average queue length:
-     \[
-       \text{Average Queue Length} = \frac{1}{T} \int_{0}^{T} Q(t)\,dt,
-     \]
-     which the code approximates by summing up \(\text{queue length} \times \Delta t\) over each event interval.
+     - Average Queue Length = (1 / T) * integral from 0 to T of Q(t) dt,
+     which the code approximates by summing up (queue length * Δt) over each event interval.
 
 ---
 
