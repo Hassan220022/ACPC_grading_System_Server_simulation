@@ -276,8 +276,8 @@ Under these **lightly loaded** conditions, you might see very few tasks waiting 
 - **Gross, D., & Harris, C. M. (2018).** *Fundamentals of Queueing Theory (5th ed.)*. Wiley.  
   - [Wiley Link](https://www.wiley.com/en-us/Fundamentals%2Bof%2BQueueing%2BTheory%2C%2B5th%2BEdition-p-9781118943526)
 
-- **Allen, A. O. (2014).** *Probability, Statistics, and Queueing Theory with Computer Science Applications (2nd ed.)*. Academic Press.  
-  - [ScienceDirect](https://www.sciencedirect.com/book/9780120510511/probability-statistics-and-queueing-theory-with-computer-science-applications)
+- **Allen, A. O. (1990).** *Probability, Statistics, and Queueing Theory with Computer Science Applications (2nd ed.)*. Academic Press.  
+  - [Internet Archive](https://archive.org/details/probabilitystati0000alle)
 
 - **MIT OpenCourseWare**: Lecture notes on queueing and exponential distributions.  
   - [MIT OCW - Introduction to Probability](https://ocw.mit.edu/courses/res-6-012-introduction-to-probability-spring-2018/resources/l12_queues/)
