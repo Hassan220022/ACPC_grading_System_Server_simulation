@@ -271,11 +271,10 @@ Under these **lightly loaded** conditions, you might see very few tasks waiting 
   If the system is overloaded (\(\lambda\) > total service rate), in theory, the queue length and waiting times can grow unbounded. In practice, you may observe extremely large numbers.
 
 ---
-
 ## References
 
-- **Gross, D. and Harris, C. M. (1998).** *Fundamentals of Queueing Theory (3rd ed.)*. Wiley.  
-  - [Wiley Link](https://www.wiley.com/en-us/Fundamentals+of+Queueing+Theory%2C+5th+Edition-p-9781119473439)
+- **Gross, D., & Harris, C. M. (2018).** *Fundamentals of Queueing Theory (5th ed.)*. Wiley.  
+  - [Wiley Link](https://www.wiley.com/en-us/Fundamentals%2Bof%2BQueueing%2BTheory%2C%2B5th%2BEdition-p-9781118943526)
 
 - **Allen, A. O. (2014).** *Probability, Statistics, and Queueing Theory with Computer Science Applications (2nd ed.)*. Academic Press.  
   - [ScienceDirect](https://www.sciencedirect.com/book/9780120510511/probability-statistics-and-queueing-theory-with-computer-science-applications)
