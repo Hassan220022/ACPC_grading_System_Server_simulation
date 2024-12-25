@@ -280,7 +280,7 @@ Under these **lightly loaded** conditions, you might see very few tasks waiting 
   - [Internet Archive](https://archive.org/details/probabilitystati0000alle)
 
 - **MIT OpenCourseWare**: Lecture notes on queueing and exponential distributions.  
-  - [MIT OCW - Introduction to Probability](https://ocw.mit.edu/courses/res-6-012-introduction-to-probability-spring-2018/resources/l12_queues/)
+  - [MIT OCW - Introduction to Probability](https://ocw.mit.edu/courses/res-6-012-introduction-to-probability-spring-2018/)
 
 - **Wikipedia: “Queueing theory.”**  
   - [https://en.wikipedia.org/wiki/Queueing_theory](https://en.wikipedia.org/wiki/Queueing_theory)
