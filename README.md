@@ -60,7 +60,7 @@ No additional third-party libraries are required.
 2. Ensure you have Python 3.7 or later installed.
 3. From your terminal, navigate to the project folder:
    ```bash
-   cd path/to/acpc-grading_system_server_simulation
+   cd path/to/acpc_grading_system_server_simulation
    ```
 4. There is no special installation step; everything runs as is.
 
@@ -165,7 +165,7 @@ The simulator uses several **key formulas** based on **queueing theory** and **e
 ## Project Structure
 
 ```
-acpc-grading-simulation/
+acpc_grading_system_server_simulation/
 ├── README.md                      # This README file
 ├── simulation.py   # Main Python script
 └── ...
